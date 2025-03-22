@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
     "express": "^4.19.2",
     "mongoose": "^8.12.2"
   }
