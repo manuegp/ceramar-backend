@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://manuelmgp2001:DHbYsH73j8bNTCQg@ceramarcluster.zjvvy.mongodb.net/?retryWrites=true&w=majority&appName=ceramarCluster', {
+mongoose.connect(process.env.CERAMAR_BBDD_DATABASE_URL, {
   dbName: 'ceramar',
 });
 
