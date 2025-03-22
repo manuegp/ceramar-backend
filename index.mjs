@@ -7,8 +7,7 @@ app.use(express.json());
 
 // MongoDB connection
 mongoose.connect('mongodb+srv://manuelmgp2001:DHbYsH73j8bNTCQg@ceramarcluster.zjvvy.mongodb.net/?retryWrites=true&w=majority&appName=ceramarCluster', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  dbName: 'ceramar',
 });
 
 const userSchema = new mongoose.Schema({
