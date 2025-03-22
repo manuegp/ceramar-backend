@@ -1,10 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
-import 'dotenv/config'
+
 const app = express();
 app.use(express.json());
-
 
 // MongoDB connection
 mongoose.connect(process.env['CERAMAR_BBDD_DATABASE_URL'], {
