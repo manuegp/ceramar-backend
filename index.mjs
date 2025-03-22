@@ -30,3 +30,4 @@ app.listen(8080, () => {
     "Server is running on port 8080. Check the app on http://localhost:8080"
   );
 });
+// mongodb+srv://manuelmgp2001:DHbYsH73j8bNTCQg@ceramarcluster.zjvvy.mongodb.net/?retryWrites=true&w=majority&appName=ceramarCluster
